@@ -46,6 +46,7 @@ async function readState(contract) {
     .then(r => ({
       sortKey: r.sortKey,
       state: r.cachedValue.state,
-      status: 'evaluated'
+      status: 'evaluated',
+      contractTxId: contract
     }))
 }
