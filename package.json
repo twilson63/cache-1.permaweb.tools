@@ -1,0 +1,14 @@
+{
+  "name": "cache-1.permaweb.tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/twilson63/cache-1.permaweb.tools.git",
+  "author": "Tom Wilson <tom@hyper.io>",
+  "license": "MIT",
+  "dependencies": {
+    "warp-contracts": "^1.2.53"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
