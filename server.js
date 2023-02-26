@@ -32,7 +32,7 @@ http.createServer(function (req, res) {
 
 async function readState(contract) {
   await warp.contract(contract)
-    .syncState('https://dre-2.warp.cc/contract', { validity: true })
+    .syncState('https://dre-1.warp.cc/contract', { validity: true })
     .catch(console.log.bind(console))
 
   return warp.contract(contract)
