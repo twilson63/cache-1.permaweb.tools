@@ -540,6 +540,11 @@ hmac-drbg@^1.0.1:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
+http-cors@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/http-cors/-/http-cors-2.0.0.tgz#79622a3b48ad580d8fb752998fde22ee888af758"
+  integrity sha512-UQlpJnh9hvy9fc1S5vb28enTJ1PfCuWGLvsV66NSSWAcRwlU0UKjdR2D23SV+znQ8MdAiJzM7Lu3YvLR8SpOcA==
+
 ieee754@^1.1.13, ieee754@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"

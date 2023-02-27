@@ -6,6 +6,7 @@
   "author": "Tom Wilson <tom@hyper.io>",
   "license": "MIT",
   "dependencies": {
+    "http-cors": "^2.0.0",
     "warp-contracts": "^1.2.53"
   },
   "scripts": {

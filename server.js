@@ -1,4 +1,5 @@
 const http = require('http')
+const cors = require('http-cors')
 const { WarpFactory, LoggerFactory } = require('warp-contracts')
 
 LoggerFactory.INST.logLevel('fatal')
@@ -6,6 +7,7 @@ const warp = WarpFactory.forMainnet()
 const prop = k => o => o[k]
 
 http.createServer(function (req, res) {
+  if (cors(req, res)) return
   const [path, params, ...rest] = req.url.split('?')
   if (path === '/contract') {
 
